@@ -1,4 +1,3 @@
-package section2;
 
 import javax.swing.JOptionPane;
 import org.jointheleague.graphical.robot.Robot;
@@ -17,8 +16,7 @@ public class FourSquare {
 			// 7. Set the pen color to random
 	
 			// 1. Call the drawSquare() method
-		drawsquare()
-	
+		
 			// 8. Turn the robot 90 degrees to the right
 
 	}
