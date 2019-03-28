@@ -7,16 +7,21 @@ public class MadlibsOfTheAmazon {
 	public static void main(String[] args) {
 		// Put this sentence in a pop up:
 		// If you find yourself having to cross a piranha-infested river, here's how to do it...
-		
+		JOptionPane.showMessageDialog(null, "Hello answer these questions");
 		// Get the user to enter an adjective
+		String one= JOptionPane.showInputDialog(null, "adjective");
 
 		// Get the user to enter a type of liquid
+		String two= JOptionPane.showInputDialog(null, "liquid");
 
 		// Get the user to enter a body part
+		String three = JOptionPane.showInputDialog(null, "body part");
 
 		// Get the user to enter a verb
+		String four = JOptionPane.showInputDialog(null, "verb");
 
 		// Get the user to enter a place
+		String five = JOptionPane.showInputDialog(null, "place");
 
 		// Fit the user's words into this sentence, and save it in a String:
 		// Piranhas are more [adjective] during the day, so cross the river at
@@ -24,7 +29,11 @@ public class MadlibsOfTheAmazon {
 		// likely take a bite out of your [body part] if you [verb]. Whatever
 		// you do, if you have an open wound, try to find another way to get
 		// back to the [place]. Good luck!
-		
+		JOptionPane.showMessageDialog(null, "Piranhas are more " + one + "during the day, so cross \n "
+				+ "the river at night. Piranhas are attracted to fresh " + two + "and will most \n"
+						+ "likely take a bite out of your " + three+ "if you " +four+ "Whatever \n"
+								+ "you do, if you have an open wound, try to find another way to get \n"
+								+ "back to the "+five+"Good luck!");
 		// Make a pop-up for the final story. You can use \n to go to the next line
 		
 
